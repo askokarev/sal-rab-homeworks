@@ -21,7 +21,6 @@ function parseProducts(json) {
 function renderProductsCards(json){
     clearProducts();
     let products=parseProducts(json);
-    console.log(products);
 products.forEach(element => {
     addProduct(element);
 });
